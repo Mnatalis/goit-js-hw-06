@@ -17,7 +17,7 @@ const list = document.querySelector('.gallery');
 const markup = images.map((img)=>`<li><img class = "image" src=${img.url} width ='400' alt=${img.alt}></img> </li>`).join("")
 list.insertAdjacentHTML("beforeend", markup)
 const pictures = document.querySelectorAll('.image')
-list.style.displey = 'flex';
+list.style.display = 'flex';
 list.style.flexWrap = 'column-reverse'
 list.style.listStyle = 'none'
 list.style.gap = '20px'
